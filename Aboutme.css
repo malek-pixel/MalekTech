@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f0f0f0; /* Light background for the body */
+}
+
+header {
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px; 
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-left: 125px;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: darkblue;
+}
+
+section {
+    padding: 100px 0 100px 10px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.main h2 {
+    color: #3a6cf4;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    text-transform: uppercase;
+    color: darkblue;
+    font-size: 2em;
+}
+
+.main h3 {
+    color: #3a6cf4;
+    font-size: 2em;
+    font-weight: 650;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.main-btn {
+    color: white;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 650;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.main-btn:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+}
+
+.social-icons {
+    text-align: center;
+    padding-left: 45px;
+}
+
+.social-icons a {
+    color: #3a6cf4;
+    font-size: 3em;
+    margin-right: 30px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: darkblue;    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #101056;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;    
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.icon {
+    color: #101056;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #101056;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.about-me {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #007BFF;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: white;
+}
+.return-home {
+    text-align: center; /* Center the button */
+    margin-top: 30px; /* Space above the button */
+}
+
+.main-btn {
+    color: white;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 650;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.main-btn:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+}
+
+
+
+
+.card a{
+
+
+text-decoration: none;
+color:black ;
+
+}
+
